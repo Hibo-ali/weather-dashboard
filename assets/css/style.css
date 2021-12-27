@@ -1,0 +1,28 @@
+* {
+    background: rgb(245, 255, 255);
+    color: rgb(7, 1, 1);
+    font-family: ;
+}
+
+#header{
+    border: 3px solid rgb(245, 255, 255) ;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(147,105,156,1) 100%);
+    padding: 10px;
+    margin: 3px;
+    color: white;
+
+}
+
+#cityInput, #inputContainer, button {
+    margin: 3px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#weatherContainer {
+    border-radius: 10px;
+    border: 2px solid;
+}
