@@ -14,7 +14,7 @@
 
 }
 
-#cityInput, #inputContainer, button {
+#cityInput, #cityName, #inputContainer, button {
     margin: 3px;
     padding: 5px;
     font-size: 20px;
@@ -33,7 +33,9 @@
     height: 350px;
     transform: translate(-50%, -50%);
     padding-bottom: 50px;
+    
 }
+
 
 #iconsContainer{
     position: absolute;
@@ -45,8 +47,8 @@
     width: 1200px;
     border-radius: 10px;
 }
-
-.icons {
+/*
+ .icons {
     display: inline-block;
     border-radius: 10px;
     margin: 20px;
@@ -55,4 +57,45 @@
     float: none;
     border: 1px solid;
 
+} 
+/*
+ .image{
+    width: 100%;
+    height: 130px;
 }
+/*
+ .imgClass {
+    width: 100%;
+    height: 130px;
+    
+}
+/*
+ .weather {
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+  
+.minValues{
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    width: 85px;
+    margin: 0;
+    height: 25px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.maxValues{
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    width: 85px;
+    margin: 0;
+    height: 25px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}  */ 
