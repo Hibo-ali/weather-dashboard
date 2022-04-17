@@ -21,6 +21,6 @@
 * WHEN I click on a city in the search history
 * THEN I am again presented with current and future conditions for that city.
 
-# Screenshot : ![](assets/imagea/ss.png)
+# Screenshot : ![](images/ss.png)
 
 # URL: https://hibo-ali.github.io/weather-dashboard/
