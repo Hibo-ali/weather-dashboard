@@ -24,56 +24,56 @@
   </head>
   <body>
     
-      <h1 id="header" >Weather Dashboard</h1>
-      <!-- search box -->
-      <div id="inputContainer">
-        <div class="row">
+    <h1>WEATHER DASHBOARD</h1>
+
+    <div class="container">
+      <div class="row">
+        <!-- SEARCH AREA -->
         <div class="col-6">
-      <h3 class="citySearch">
-        Search For a City:
-        <div class="input-group">
-          <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-          <button type="button" class="btn btn-outline-primary">Search</button>
+          <h3 id="searchCity">Search for a City:</h3>
+          <div>
+            <form>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="searchInput"
+                  placeholder="Enter a City"
+                  aria-describedby="searchinput"
+                />
+              </div>
+              <button
+                type="submit"
+                class="btn btn-primary btn-lg fas fa-search-location"
+                id="searchButton"
+              ></button>
+            </form>
+          </div>
+          <br />
+          <table class="table  table-hover">
+            <thead></thead>
+            <tbody id="savedCities">
+             </tbody>
+          </table>
         </div>
-        
-
-        
-      </h3>
-  
-    </div>
-    </div>
-    </div>
-
-      
-    
-
-
-
-
-
-
-
-
-
-    
-            <!-- CURRENT CITY INFO -->
-            <div class="col-6">
-              <div class="row">
-                <div class="measure">
-                  <h2 id="current-city"></h2>
-                  <p id="current-temp">Temperature:</p>
-                  <p id="current-humidity">Humidity:</p>
-                  <p id="current-wind">Wind Speed:</p>
-                  <p id="current-UV-index">UV Index:</p>
-                </div>
-              </div>
-              <div class="row" id="forecast-area">
-                <h2 id="forecast-header">5-Day Forecast</h2>
-              </div>
+<!-- table-bordered -->
+        <!-- CURRENT CITY INFO -->
+        <div class="col-12">
+          <div class="row">
+            <div>
+              <h2 id="currentCity"></h2>
+              <p id="currentTemp">Temperature:</p>
+              <p id="currentHumidity">Humidity:</p>
+              <p id="currentWind">Wind Speed:</p>
+              <p id="currentUV">UV Index:</p>
             </div>
           </div>
+          <div class="row" id="forecastArea">
+            <h2 id="forecastHeader">5-Day Forecast</h2>
+          </div>
         </div>
-    
+      </div>
+    </div>
     
     
     
