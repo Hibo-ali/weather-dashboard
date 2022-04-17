@@ -1,70 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Rajdhani:wght@300&family=Trirong:wght@100;200&display=swap');
 * {
-    background: rgb(241, 241, 239);
-    color: rgb(7, 1, 1);
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
-
-#header{
-    border: 3px solid rgb(245, 241, 239) ;
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(147,105,156,1) 100%);
-    padding: 30px;
-    color: white;
-    text-align: center;
-
-}
-
-#inputContainer {
-    /* float: left; */
-/*     
-    margin-bottom: 40px; */
-}
-
-/* #cityInput, #cityName, button {
-    margin: 3px;
-    padding: 5px;
-    font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-} */
-
-.measure {
-    float: center;
-    margin-left: 50%;
-    margin-top: 3%;
-    line-height: 2;
-    font-weight: bold;
-    font-size: 17px;
-}
-
-.far fa-search {
-    size: 20px;
-}
-
-#weatherContainer {
-    border-radius: 10px;
-    border: 2px solid rgba(238,174,202,1);
-    width: 1200px;
-    margin-right: -50px;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    height: 350px;
-    transform: translate(-50%, -50%);
-    padding-bottom: 50px;
-    
+h1{
+  font-size: 60px;
+  text-align: center;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(147,105,156,1) 100%);
+  color: white;
+  padding: 20px;
 }
 
 
-#iconsContainer{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    height: 240px;
-    width: 1200px;
-    border-radius: 10px;
+.container {
+
+margin-top: 30px;
+
+}
+
+#currentCity {
+  font-weight: bolder;
+}
+
+.col-12, .row {
+  font-size: 18px;
+}
+
+#forecastHeader {
+  font-weight: bold;
+}
+
+.forecastArea {
+  font-size: 40px;
+}
+#searchButton {
+  background-color: rgb(238,174,202);
+  border-color: white;
+}
+
+.col-2 {
+  background-color: rgb(238,174,202);
+  color: white;
+}
+
+#search-input {
+  width: 66%;
+  float: left;
 }
